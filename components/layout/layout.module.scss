@@ -1,0 +1,24 @@
+.content {
+  display: grid;
+  gap: 10px;
+}
+
+.navbar {
+  display: inherit;
+}
+
+.main {
+  padding: 0.5rem 0;
+  background-color: #F9F9F9;
+}
+
+.footer {
+  display: inherit;
+}
+
+@media screen and (min-width: 768px) and (orientation: landscape){
+  .main {
+    max-width: 80%;
+    margin: auto;
+  }
+}

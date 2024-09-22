@@ -1,0 +1,151 @@
+.content {
+  display: grid;
+  gap: 1px;
+  background-color: #dddddd;
+  color: grey;
+  padding: 1px ;
+  font-weight: 200;
+  letter-spacing: normal;
+  line-height: 20px;
+  font-family: GillSansforJL, Gill Sans, Gill Sans MT, Arial, Helvetica, sans-serif;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.divider {
+  border-top: 6px solid lightgrey;
+  height: 100%;
+  display: block;
+}
+
+.productDetailsContainer{
+  display: grid;
+  margin: 16px;
+}
+
+
+.productDetails{
+  margin: 20px;
+}
+
+.productDeal {
+  margin: 20px 20px 0 20px;
+}
+
+.priceNow {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 1% 0;
+}
+
+.displaySpecialOffer {
+  color: #a52222;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 1% 0;
+}
+
+.displayGuarantee {
+  color: #044d04;
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 40px;
+}
+
+.productBorders {
+  border-spacing: 8px;
+  border-top: 0.1px solid #707070;
+  margin: 16px 0;
+}
+
+.productSmallText {
+  font-size: 16px;
+  font-weight: 300;
+  width: 100%;
+}
+
+.productCode {
+  font-size:16px;
+  font-weight: 300;
+  width: 100%;
+  margin-top: 16px ;
+}
+
+.attributeName {
+  display: inline-block;
+  width: 50%;
+}
+
+.attribute\Value {
+ position: relative;
+ float: right;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  background: white;
+  border-top: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+}
+
+.contentItem {
+  padding: 25px;
+ display: flex;
+ flex-direction: column;
+ color: #5b5b5b;
+ font-weight: 400;
+}
+
+.price {
+  color: black;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) and (orientation: landscape){
+
+  .content {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .productDetailsContainer {
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+
+  .leftSide {
+    border-right: 0.1px solid #707070;
+  }
+  
+  .priceNow {
+    margin: 0 0 0 auto;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 1% 0;
+  }
+  
+  .displaySpecialOffer {
+    margin: 0 0 0 auto;
+    color: #a52222;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 1% 0;
+  }
+  
+  .displayGuarantee {
+    margin: 0 0 0 auto;
+    color: #044d04;
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 40px;
+  }
+  
+  .divider {
+    display: none;
+  }
+
+  .productPromotion {
+    border-left: 1px solid black;
+  }
+
+}

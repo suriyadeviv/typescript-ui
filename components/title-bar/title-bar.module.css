@@ -1,0 +1,35 @@
+.titleContainer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .backButton {
+    margin-right: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .backButton:hover {
+    background-color: #666667;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+
+  .chevron {
+    width: 24px; /* Adjust size as needed */
+    height: 24px; /* Adjust size as needed */
+    float: right;
+  }
+  

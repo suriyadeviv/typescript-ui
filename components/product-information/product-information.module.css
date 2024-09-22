@@ -1,0 +1,31 @@
+.accordion {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.accordionTitle {
+    font-weight: bold;
+    font-size: medium;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.accordionContent {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    width: 100%;
+    color: grey;
+}
+
+.chevron {
+    width: 24px; /* Adjust size as needed */
+    height: 24px; /* Adjust size as needed */
+    float: right;
+  }
